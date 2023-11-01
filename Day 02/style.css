@@ -1,0 +1,30 @@
+.navbar a{
+    float: right;
+    color: black;
+    font-weight: 400;
+    font-size: 150%;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Name{
+    position: absolute;
+    float: left;
+}
+
+body{
+    background : linear-gradient(to right, #00ace6, #d580ff);
+}
+.main{
+padding-top: 15%;
+padding-left: 10%;
+color: white;
+}
+
+h1{
+    font-size: 450%;
+}
+h2{
+    font-size: 250%;
+}
