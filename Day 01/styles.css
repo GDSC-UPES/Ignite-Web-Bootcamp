@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    font-size: 50px;
+}
+.parent{
+    background-color: rgb(213, 255, 196);
+    width: 100%;
+    height:80px;
+}
+
+.child{
+    background-color: red;
+    float: right;     
+}
+.child2{
+    background-color: red;
+    float: left;     
+}
+
+/* ul{
+    list-style: none;
+    display: flex;
+}
+ */
