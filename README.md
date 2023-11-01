@@ -20,6 +20,8 @@ Project Mentors -
 
 This project explores the classic Ping Pong Game which isn't just about fun but a creative journey into JavaScript, where the game logic is built from scratch alongwith various added functionalities to enhance the gaming experience.
 
+Project Mentors - 
+
 - [Anshika Srivastava](https://github.com/anshikasrivastava17)
 - [Archisha Dhyani](https://github.com/Archisha-Dhyani)
 
