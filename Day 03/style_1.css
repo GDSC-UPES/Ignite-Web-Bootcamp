@@ -1,0 +1,68 @@
+.navbar_about {
+    position: fixed;
+    padding-top: 0;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to left,pink,blue);
+}
+
+.navbar_about a {
+    float: right;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 150%;
+    text-decoration: none;
+
+}
+.First{
+    position: absolute;
+    /* left: 2%; Position it at the extreme left */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-weight: bolder !important;
+  }
+
+body{
+    margin: 0%;
+    display: flex;
+    height: 100vhs;
+}
+
+
+.box{
+    height: 100%;
+    width: 100%;
+    padding-top: 5%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+ .heading{
+   /* padding-left: 40%; */
+   text-align: center;
+ }
+ .row{
+    padding-bottom: 8%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    width: 70%;
+    height: 200px;
+ }
+.rectangle{
+    border: 1px solid rgb(179, 179, 182);
+    border-radius: 10%;
+    width: 200px;
+    height:280px;
+    background-color: rgb(230, 230, 234);
+}
+
+p{
+    padding-left:5% ;
+    width: 90%;
+}
+
+img{
+    padding-top: 5%;
+}
