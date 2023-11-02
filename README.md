@@ -11,6 +11,8 @@ Step into the exciting realm of web development with [GDSC UPES](https://github.
 
 The Portfolio Website project involves creating a personalized website to showcase your skills, achievements, and work. It offers user-friendly navigation and a responsive design providing a seamless experience across various devices and screen sizes. 
 
+[Portfolio Project Design](https://www.figma.com/file/BlABt11TXUELIwfSMjc2z0/Portfolio-Site?type=design&node-id=0%3A1&mode=design&t=4yA4agJ0pYxSVQD6-1)
+
 Project Mentors - 
 - [Pushker Jain](https://github.com/pushker0101)
 - [Barkha Arora](https://github.com/barkhaaroraa)
