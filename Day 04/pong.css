@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&display=swap');
+
+body{
+    font-family: 'Poppins', 'sans-serif';
+    text-align: center;
+    background: #333333;
+    color: white;
+}
+
+#board{
+    background-color: rgb(108, 173, 173);
+    background-image: url('grass3.jpg');
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
