@@ -32,30 +32,35 @@ body{
 
 
 .box{
-    height: 100%;
+     height: 100%;  /*added background colour to make things easy to understand */
     width: 100%;
     padding-top: 5%;
-    justify-content: space-evenly;
+    background-color: blueviolet;
+    justify-content: space-evenly;  /*what this line of code does is it distributes space between items evenly adjusting according to screen size */
     text-align: center;
 }
  .heading{
    /* padding-left: 40%; */
    text-align: center;
  }
- .row{
+ .row{   /* wrote rows instead of row yest sorry about that lol */
     padding-bottom: 8%;
+    background-color: blue;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;   /*what this line of code does is it distributes space 
+    between items evenly adjusting according to screen size but it places the first and 
+    last element at the beginning and at the end of the parent container*/
     margin-left: 15%;
     width: 70%;
     height: 200px;
  }
 .rectangle{
     border: 1px solid rgb(179, 179, 182);
-    border-radius: 10%;
+
+    border-radius: 10%;   /* to make the edges rounded */
     width: 200px;
     height:280px;
-    background-color: rgb(230, 230, 234);
+    background-color: rgb(255, 110, 173);
 }
 
 p{
