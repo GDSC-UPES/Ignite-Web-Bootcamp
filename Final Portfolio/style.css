@@ -1,0 +1,58 @@
+  /* CSS for the navigation bar */
+  .navbar a {
+    float: right;
+    color: black;
+    font-weight: 400;
+    padding: 20px 20px;
+    font-size: 150%;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+  }
+
+  body{
+    margin: 0;
+    font-family:'Inter',sans-serif;
+    background: linear-gradient(to right, #204D8D,#5ACAA0);
+  }
+  .First{
+      position: absolute;
+      margin-left: 2%; /* Position it at the extreme left */
+      top: -0.5%;
+      font-size: 200% !important;
+  }
+
+  .main{
+    padding-top: 13%;
+    padding-left: 8%;
+    color: white;
+
+  }
+  h1{
+    font-size: 450%;
+  }
+  h2{
+    font-size: 250%;
+    padding-bottom: 3%;
+  }
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar a {
+      float: none;
+      display: block;
+      text-align: center;
+      width: 100%;
+      padding: 15px 0;
+  }
+
+  li{
+    font-size: 10px;
+  }
+  .First {
+      position: static;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+}
