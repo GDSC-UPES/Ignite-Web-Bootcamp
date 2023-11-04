@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+    background: #333333; 
+    color: white; 
+}
+
+#board {
+    background-color: #87ceeb; /* Default background color */
+    background-image: url('grass3.jpg');
+    
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+#p1{ /* 1st player name */
+    position: absolute;
+    left:100px;
+    top: 30px;
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 5px 10px #139f6c;
+}
+
+#p2{ /* 2nd player name */
+    position: absolute;
+    right:100px;
+    top: 30px;
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 5px 10px #139f6c;
+}
+
+.button-container { /* last buttons - START , PAUSE etc*/
+    display: flex;
+    justify-content: space-between; /* Distribute space between buttons */
+    height: 50px; width:600px;
+    position: absolute;
+    top: 90%; left: 50%; 
+    transform: translate(-50%, -50%);
+} 
+
+.button-container button{
+    background-color:#139f6c;
+    color: white;
+    padding: 12px; margin:10px;
+    border:0.5px solid black;
+    border-radius: 4px;
+    width:100px;
+    /* position: absolute;
+    bottom: 50px; */
+}
+.resultMessage{
+    display:flex;
+    justify-content: center;
+    height:20px;
+    width: 20px;
+}
