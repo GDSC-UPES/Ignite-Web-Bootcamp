@@ -1,0 +1,162 @@
+
+.navbar {
+    position: fixed;
+    padding-top: 0;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right,#FAD0C4, #FAD0C4, #FFD1FF);
+    overflow: hidden;
+
+}
+h1{
+    font-family: 'Inter',sans-serif;
+}
+
+.navbar a {
+    float: right;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+.heading{
+  text-align: center;
+  font-size: 310%;
+  color:#4E4376;
+}
+.First{
+  float: left;
+    position: absolute;
+    left: 2%; /* Position it at the extreme left */
+    top: -6%;
+    font-size: 200% !important;
+}
+
+body{
+    padding-top: 5%;
+
+  margin: 0;
+
+}
+
+/* Basic styling for the card layout */
+.card-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.card {
+    width: 200px;
+    height: 280px;
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 1% 2%;
+    border-radius: 10%;
+    /* display:inline; */
+}
+
+.card .card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+
+}
+
+.card-front,
+/* .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+} */
+
+.card-front p{
+  padding-left: 20px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/* .card-back {
+    transform: rotateY(180deg);
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+} */
+a {
+    text-decoration: none;
+    color: #007acc;
+    display: block;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 768px) {
+    body{
+        padding-top: 50%;
+    }
+    .navbar_about a {
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 15px 0;
+    }
+  
+    li{
+      font-size: 10px;
+    }
+    .First {
+        position: static;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .card{
+        height: 200px;
+    }
+    .card-front p{
+        font-size: 10px;
+    }
+
+    
+}
+@media screen and (max-width: 590px) {
+    body{
+        padding-top: 55%;
+    }
+    .card{
+        height: 300px;
+    }
+@media screen and (max-width:500px){
+    body{
+        padding-top: 70%;
+    }
+    .card{
+        height: 300px;
+    }
+
+    
+}
+}
