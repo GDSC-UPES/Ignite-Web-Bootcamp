@@ -1,0 +1,115 @@
+/* CSS to style the About section */
+.navbar {
+    background: linear-gradient(to right, #FAD0C4, #FAD0C4, #FFD1FF);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /* position: fixed; */
+}
+
+.navbar a {
+    float: right;
+    color: black;
+    font-weight: 400;
+    padding: 20px 20px;
+    font-size: 150%;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.About {
+    text-align: center;
+    color: #4E4376;
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 2em;
+}
+
+.box {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    width: 50%;
+    padding-top: 2%;
+    padding-right: 8%;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+img {
+    max-width: 90%;
+    height: 70%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.text-content {
+    width: 50%; /* Set the width of the text column to 50% */
+    padding-right: 50px;
+}
+
+.rectangle {
+    background-color: #537895;
+    width: 25%;
+    height: 50px;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+}
+body{
+  margin: 0;
+  font-family:'Inter',sans-serif;
+}
+.First{
+    
+    position: absolute;
+    left: 2%; /* Position it at the extreme left */
+    font-size: 200% !important;
+    top: -6%;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar_about a {
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 15px 0;
+    }
+  
+    li{
+      font-size: 10px;
+    }
+    .First {
+        position: static;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    img{
+    max-width: 60%;
+    height: 10%;
+    margin: 0 auto;
+    border-radius: 50%;
+
+    }
+
+    .text-content p
+    {
+        display: inline-flex;
+        width: 100%;
+        padding: 0;
+
+    }
+
+}
